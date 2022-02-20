@@ -1,6 +1,6 @@
 name: SAST
 
-on:
+on:  
   push:
     branches: [ main ]
 
