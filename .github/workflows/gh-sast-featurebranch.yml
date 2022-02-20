@@ -40,9 +40,3 @@ jobs:
             ThunderScan-Report.json
             ThunderScan-Report.sarif
           retention-days: 1
-      # Find & Delete Scan
-      - name: Delete Feature Branch Scan
-        run: |
-          SCAN_ID=$(curl -H "X-Auth-Token: $THUNDERSCAN_API_TOKEN" $THUNDERSCAN_API_URL"/api/scans?query="$THUNDERSCAN_SCAN_NAME | jq -r '.[].id')
-          echo $SCAN_ID "is Scan ID"
-          curl -H "X-Auth-Token: $THUNDERSCAN_API_TOKEN" --request DELETE $THUNDERSCAN_API_URL"/api/scans/"$SCAN_ID
