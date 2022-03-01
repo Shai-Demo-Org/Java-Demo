@@ -50,4 +50,4 @@ jobs:
           java -jar wss-unified-agent.jar -appPath $WARFILE -d ./
 
       - name: Prioritize GH Issue Comments
-        run: chmod +x ./ghissue-eua.sh && ./ghissue-eua.sh
+        run: chmod +x ./ghissue-eua.sh && ./ghissue-eua.sh  
