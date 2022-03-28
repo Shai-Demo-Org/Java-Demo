@@ -13,7 +13,6 @@
   "issueSettings": {
     "minSeverityLevel": "LOW"
   },
-  {
   "remediateSettings": {
     "enableRenovate": true
   },
