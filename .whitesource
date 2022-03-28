@@ -13,13 +13,11 @@
   "issueSettings": {
     "minSeverityLevel": "LOW"
   },
-  "remediateSettings": {
-    "enableRenovate": true
-  },
    "remediateSettings": {
+    "enableRenovate": true,
     "workflowRules": {
       "enabled": true,
-      "minVulnerabilitySeverity": "LOW"
+      "minVulnerabilitySeverity": "LOW
     },
     "extends": ["github>whitesource/merge-confidence:beta"]
   }
