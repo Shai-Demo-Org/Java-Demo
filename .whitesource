@@ -16,7 +16,6 @@
   "remediateSettings": {
     "enableRenovate": true
   },
-  }
    "remediateSettings": {
     "workflowRules": {
       "enabled": true,
